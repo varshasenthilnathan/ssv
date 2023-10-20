@@ -10,7 +10,9 @@ import { MovieComponent } from './movie/movie.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { FeatureModule } from './feature/feature.module';
-
+import { AboutComponent } from './about/about.component';
+import { ReviewComponent } from './review/review.component';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { FeatureModule } from './feature/feature.module';
     HomeComponent,
     HeaderComponent,
     MovieComponent,
+    AboutComponent,
+    ReviewComponent,
 
   ],
   imports: [
@@ -26,7 +30,8 @@ import { FeatureModule } from './feature/feature.module';
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    FeatureModule
+    FeatureModule,
+    MatDialogModule
     
   ],
   providers: [],

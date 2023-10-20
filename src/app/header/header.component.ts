@@ -22,4 +22,10 @@ export class HeaderComponent implements OnInit {
     this.auth.logout();
   }
 
+  about() {
+    this.auth.about();
+  }
+  review() {
+    this.auth.review();
+  }
 }

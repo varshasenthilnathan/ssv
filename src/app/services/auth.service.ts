@@ -19,4 +19,12 @@ export class AuthService {
   logout() {
     this.router.navigate(['login']);
   }
+
+  about() {
+    this.router.navigate(['about']);
+  }
+
+  review(){
+    this.router.navigate(['review']);
+  }
 }

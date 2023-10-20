@@ -42,4 +42,12 @@ export class MovieComponent implements OnInit {
       }
     });
   }
+  displayVal='';
+  getValue(val:string) 
+  {
+    console.warn(val)
+    this.displayVal=val
+  }
+
+
 }
